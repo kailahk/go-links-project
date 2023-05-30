@@ -1,11 +1,11 @@
 import "./NetflixReposList.css"
+import Repo from "../Repo/Repo";
 
-export default function NetflixReposList({netflixRepos}) {
-    // const netflixRepoList = netflixRepos.map((r, idx) => {})
-    console.log(netflixRepos)
+export default function NetflixReposList({ netflixRepos }) {
+    const netflixRepoList = netflixRepos.map((repo, idx) => <Repo repo={repo} key={idx} />);
     return (
         <div className="NetflixReposList">
-            NetflixReposList
+            {netflixRepoList}
         </div>
     )
 }

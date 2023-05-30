@@ -9,5 +9,6 @@ export async function getRepos(company) {
     const base_url = `https://api.github.com/orgs/${company}/repos`
 
     const res = await fetch(base_url+queryString, options).then(res => res.json());
+    // console.log(res)
     return res
 }

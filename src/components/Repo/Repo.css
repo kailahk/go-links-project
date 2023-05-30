@@ -1,0 +1,8 @@
+.Repo {
+    padding: 2vmin;
+    border: .5vmin solid black;
+    margin: 0 auto;
+    margin-top: 2vmin;
+    width: 40vmin;
+    border-radius: 10px;
+}
