@@ -5,7 +5,6 @@ export default function Repo({ repo }) {
     const [showCommits, setShowCommits] = useState(false)
     const created = repo.created_at.split('-')
     const updatedCreatedAt = `${created[1]}/${created[0]}`
-    console.log(repo)
     return (
         <div className="Repo" onClick={() => setShowCommits(!showCommits)}>
             <h4>{repo.name}</h4>

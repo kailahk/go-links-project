@@ -1,3 +1,5 @@
 .NetflixReposList {
     color: navy;
+    height: 90vh;
+    overflow-x: scroll;
 }
