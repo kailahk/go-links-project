@@ -1,8 +1,13 @@
 .Repo {
     padding: 2vmin;
-    border: .5vmin solid black;
+    border: .5vmin solid grey;
     margin: 0 auto;
-    margin-top: 2vmin;
+    margin-top: 4vmin;
     width: 40vmin;
     border-radius: 10px;
+}
+
+.Repo:hover {
+    border-color: lightblue;
+    transform: scale(1.1);
 }
